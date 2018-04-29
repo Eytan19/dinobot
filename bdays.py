@@ -8,80 +8,81 @@ from os import environ
 # app.run(environ.get('PORT'))
 
 birthday_data = (
-    ['Erica', 'Abramson', '6/21/17'],
-    ['Bolu', 'Adeyeye', '12/22/17'],
-    ['Matt', 'Ale', '6/26/17'],
-    ['Khalid', 'Almoammar', '2/10/17'],
-    ['Josh', 'Andermarch', '12/12/17'],
-    ['Jamsheer', 'Anklesaria', '6/7/17'],
-    ['Mio', 'Asatani', '6/27/17'],
-    ['Dara', 'Blume', '8/13/17'],
-    ['Benny', 'Bursztyn', '10/20/17'],
-    ['Pranav', 'Chachra', '11/3/17'],
-    ['Justin', 'Charles', '12/5/17'],
-    ['Lisa', 'Chen', '12/21/17'],
-    ['April', 'Chye', '4/16/17'],
-    ['Jose', 'Clautier', '3/17/17'],
-    ['Anya', 'Clifford', '5/24/17'],
-    ['Maor', 'Cohen', '7/22/17'],
-    ['Daniel', 'Dall Acqua', '7/12/17'],
-    ['Greg', 'Doger de Speville', '1/15/17'],
-    ['Hannah', 'Dolgin', '11/28/17'],
-    ['Gillian', 'Dudeck', '7/15/17'],
-    ['Evan', 'Einstein', '4/10/17'],
-    ['Matt', 'Ellis', '12/11/17'],
-    ['Mike', 'Flum', '3/9/17'],
-    ['Kevin', 'Gallagher', '10/18/17'],
-    ['Mitch', 'Gorodokin', '5/10/17'],
-    ['Lindley', 'Gray', '8/25/17'],
-    ['Anchal', 'Gulati', '2/22/17'],
-    ['Oscar', 'Hentschel', '11/4/17'],
-    ['Morgan', 'Holmes', '7/13/17'],
-    ['Keita', 'Ito', '4/4/17'],
-    ['Nick', 'Karr', '11/23/17'],
-    ['Liz', 'Kelley', '9/23/17'],
-    ['Erik', 'Kogut', '12/18/17'],
-    ['Minsu (Brandon)', 'Kong', '1/3/17'],
-    ['Joon', 'Lee', '6/4/17'],
-    ['Joe', 'Lin', '8/20/17'],
-    ['Jeffrey', 'Lothian', '2/26/17'],
-    ['Sandra', 'Lucia', '2/13/17'],
-    ['Joe', 'Lynch', '11/12/17'],
-    ['Liz', 'McCue', '3/29/17'],
-    ['Gabriel', 'Metzger', '6/24/17'],
-    ['Will', 'Miller', '12/15/17'],
-    ['Cyrus', 'Mojdehi', '2/8/17'],
-    ['Mark', 'Mosby', '2/1/17'],
-    ['Amelia', 'Munson', '12/22/17'],
-    ['Gladys', 'Ndagire', '10/2/17'],
-    ['Kelly', "O'Brien", '12/24/17'],
-    ['Andrea', 'Oran', '9/18/17'],
-    ['Valentina', 'Pardo', '11/12/17'],
-    ['Alexa', 'Picciotto', '1/31/17'],
-    ['Adi', 'Prasad', '9/3/17'],
-    ['Justin', 'Reggi', '5/12/17,'],
-    ['Laura', 'Rodgers', '4/2/17'],
-    ['Eytan', 'Schindelhaim', '10/22/17'],
-    ['Janaki', 'Sekaran', '1/2/17'],
-    ['Sid', 'Shanbhag', '7/9/17'],
-    ['Sarah', 'Shenker', '1/16/17'],
-    ['David', 'Streger', '4/25/17'],
-    ['Vincent', 'Su', '10/4/17'],
-    ['Maeve', 'Tsivanidis', '8/8/17'],
-    ['Naomi', 'Tudhope', '8/24/17'],
-    ['Nivedita', 'Venkateish', '7/24/17'],
-    ['Rachel', 'Wasser', '4/26/17'],
-    ['Jasper', 'Wu', '12/25/17'],
-    ['Frank', 'Yodice', '6/6/17'],
-    ['Zenah', 'Hasan', '2/1/17'],
-    ['Vicci', 'Zhong', '8/19/17'],
-    ['Sherie', 'Zhou', '8/17/17'],
+    ['Erica', 'Abramson', '6/21'],
+    ['Bolu', 'Adeyeye', '12/22'],
+    ['Matt', 'Ale', '6/26'],
+    ['Khalid', 'Almoammar', '2/10'],
+    ['Josh', 'Andermarch', '12/12'],
+    ['Jamsheer', 'Anklesaria', '6/7'],
+    ['Mio', 'Asatani', '6/27'],
+    ['Dara', 'Blume', '8/13'],
+    ['Benny', 'Bursztyn', '10/20'],
+    ['Pranav', 'Chachra', '11/3'],
+    ['Lisa', 'Chen', '12/21'],
+    ['April', 'Chye', '4/16'],
+    ['Jose', 'Clautier', '3/17'],
+    ['Anya', 'Clifford', '5/24'],
+    ['Maor', 'Cohen', '7/22'],
+    ['Daniel', 'Dall Acqua', '7/12'],
+    ['Greg', 'Doger de Speville', '1/15'],
+    ['Hannah', 'Dolgin', '11/28'],
+    ['Gillian', 'Dudeck', '7/15'],
+    ['Evan', 'Einstein', '4/10'],
+    ['Matt', 'Ellis', '12/11'],
+    ['Mike', 'Flum', '3/9'],
+    ['Kevin', 'Gallagher', '10/18'],
+    ['Mitch', 'Gorodokin', '5/10'],
+    ['Lindley', 'Gray', '8/25'],
+    ['Anchal', 'Gulati', '2/22'],
+    ['Oscar', 'Hentschel', '11/4'],
+    ['Morgan', 'Holmes', '7/13'],
+    ['Keita', 'Ito', '4/4'],
+    ['Nick', 'Karr', '11/23'],
+    ['Liz', 'Kelley', '9/23'],
+    ['Erik', 'Kogut', '12/18'],
+    ['Brandon', 'Kong', '1/3'],
+    ['Joon', 'Lee', '6/4'],
+    ['Joe', 'Lin', '8/20'],
+    ['Jeffrey', 'Lothian', '2/26'],
+    ['Sandra', 'Lucia', '2/13'],
+    ['Joe', 'Lynch', '11/12'],
+    ['Liz', 'McCue', '3/29'],
+    ['Gabriel', 'Metzger', '6/24'],
+    ['Will', 'Miller', '12/15'],
+    ['Cyrus', 'Mojdehi', '2/8'],
+    ['Mark', 'Mosby', '2/1'],
+    ['Amelia', 'Munson', '12/22'],
+    ['Gladys', 'Ndagire', '10/2'],
+    ['Kelly', "O'Brien", '12/24'],
+    ['Valentina', 'Pardo', '11/12'],
+    ['Alexa', 'Picciotto', '1/31'],
+    ['Adi', 'Prasad', '9/3'],
+    ['Justin', 'Reggi', '5/12,'],
+    ['Laura', 'Rodgers', '4/2'],
+    ['Eytan', 'Schindelhaim', '10/22'],
+    ['Janaki', 'Sekaran', '1/2'],
+    ['Sid', 'Shanbhag', '7/9'],
+    ['David', 'Streger', '4/25'],
+    ['Vincent', 'Su', '10/4'],
+    ['Maeve', 'Tsivanidis', '8/8'],
+    ['Naomi', 'Tudhope', '8/24'],
+    ['Nivedita', 'Venkateish', '7/24'],
+    ['Rachel', 'Wasser', '4/26'],
+    ['Jasper', 'Wu', '12/25'],
+    ['Frank', 'Yodice', '6/6'],
+    ['Zenah', 'Hasan', '2/1'],
+    ['Vicci', 'Zhong', '8/19'],
+    ['Sherie', 'Zhou', '8/17'],
 )
 
-URL = 'https://api.groupme.com/v3/bots/post'
+POST_URL = 'https://api.groupme.com/v3/bots/post'
+MEMBER_URL = 'https://api.groupme.com/v3/groups/33465145'
+
+PARAMS = {'token': 'RQmeVuHtocjtAcGmgTHYR1BL3g1lBCiGJgz55Act'}
 
 # Cluster D group Bot
-BOT_ID = '0aafafce1aef34384b7bb45233'
+#BOT_ID = '0aafafce1aef34384b7bb45233'
+BOT_ID = '55d836eb2b95f01b990614ad1c'
 
 # Test Bot
 # BOT_ID = '9ed43f52fe4c724c362063c5de'
@@ -90,8 +91,16 @@ HEADERS = {'content-type': 'application/json'}
 
 BDAYS_INPUT = 'bdays.csv'
 
+def id_lookup():
 
-def bdays(birthday_data, today):
+    response = requests.get(MEMBER_URL, params=PARAMS, headers=HEADERS).json()
+    print response
+    members = response['response']['members']
+    id_dict = {member['nickname']:member['user_id'] for member in members}
+    return id_dict
+
+def bdays(birthday_data, today, id_dict):
+    
     todays_bdays = []
     for row in birthday_data:
         bday = row[2]
@@ -103,18 +112,42 @@ def bdays(birthday_data, today):
 
     for todays_bday in todays_bdays:
         first_name, last_name = todays_bday[0], todays_bday[1]
-        data = {
-            'bot_id': BOT_ID,
-            'text': 'Happy birthday @{} {}!!!'.format(first_name, last_name)
-        }
-        print(data)
-        response = requests.post(URL, data=json.dumps(data), headers=HEADERS)
-        print(response.content)
+        user_id = id_dict[first_name + ' ' + last_name]
+        length = len(first_name + last_name)
+        length_plus_15 = 15 + length
+        try:
+            data = {
+                'bot_id': BOT_ID,
+                'text': 'Happy birthday @{} {}!!!'.format(first_name, last_name),
+                'attachments': [
+                    {
+                        'loci': [
+                            [
+                                15,
+                                length_plus_15
+                            ]
+                        ],
+                        'type': 'mentions',
+                        'user_ids': [
+                            user_id
+                        ]
+                    }
+                ],
+            }
+        except:
+            data = {
+                'bot_id': BOT_ID,
+                'text': 'Happy birthday @{} {}!!!'.format(first_name, last_name),
+            }
+
+        requests.post(POST_URL, data=json.dumps(data), headers=HEADERS)
 
 
 def main():
+    
     today = datetime.datetime.now()
-    bdays(birthday_data, today)
+    id_dict = id_lookup()
+    bdays(birthday_data, today, id_dict)
 
 
 if __name__ == '__main__':
