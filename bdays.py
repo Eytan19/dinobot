@@ -76,7 +76,7 @@ birthday_data = (
 )
 
 POST_URL = 'https://api.groupme.com/v3/bots/post'
-MEMBER_URL = 'https://api.groupme.com/v3/groups/33465145'
+MEMBER_URL = 'https://api.groupme.com/v3/groups/33175999'
 
 PARAMS = {'token': 'RQmeVuHtocjtAcGmgTHYR1BL3g1lBCiGJgz55Act'}
 
