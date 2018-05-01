@@ -18,7 +18,7 @@ BOT_ID = '55d836eb2b95f01b990614ad1c' # test
 
 DATA = {
     'text': 'Proper @Jamsheer Anklesaria',
-    'bot_id': BOT_ID
+    'bot_id': BOT_ID,
     'attachments': [
         {
             'loci': [
@@ -32,7 +32,7 @@ DATA = {
                 '29728990'
             ]
         }
-    ],
+    ]
 }
 
 

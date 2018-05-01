@@ -132,7 +132,7 @@ def bdays(birthday_data, today, id_dict):
                             user_id
                         ]
                     }
-                ],
+                ]
             }
         except:
             data = {
