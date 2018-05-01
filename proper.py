@@ -7,8 +7,8 @@ from os import environ
 
 POST_URL = 'https://api.groupme.com/v3/bots/post'
 
-# MESSAGE_URL = 'https://api.groupme.com/v3/groups/33175999/messages' # Real
-MESSAGE_URL = 'https://api.groupme.com/v3/groups/40429304/messages' # Test
+MESSAGE_URL = 'https://api.groupme.com/v3/groups/33175999/messages' # Real
+# MESSAGE_URL = 'https://api.groupme.com/v3/groups/40429304/messages' # Test
 
 PARAMS = {'token': 'RQmeVuHtocjtAcGmgTHYR1BL3g1lBCiGJgz55Act'}
 HEADERS = {'content-type': 'application/json'}
