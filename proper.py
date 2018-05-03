@@ -7,14 +7,14 @@ from os import environ
 
 POST_URL = 'https://api.groupme.com/v3/bots/post'
 
-# MESSAGE_URL = 'https://api.groupme.com/v3/groups/33175999/messages' # Real
-MESSAGE_URL = 'https://api.groupme.com/v3/groups/40429304/messages' # Test
+MESSAGE_URL = 'https://api.groupme.com/v3/groups/33175999/messages' # Real
+# MESSAGE_URL = 'https://api.groupme.com/v3/groups/40429304/messages' # Test
 
 PARAMS = {'token': 'RQmeVuHtocjtAcGmgTHYR1BL3g1lBCiGJgz55Act'}
 HEADERS = {'content-type': 'application/json'}
 
-#BOT_ID = '0aafafce1aef34384b7bb45233' # real
-BOT_ID = '55d836eb2b95f01b990614ad1c' # test
+BOT_ID = '0aafafce1aef34384b7bb45233' # real
+# BOT_ID = '55d836eb2b95f01b990614ad1c' # test
 
 DATA = {
     'text': 'Proper @Jamsheer Anklesaria',
