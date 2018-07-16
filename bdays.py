@@ -94,7 +94,6 @@ BDAYS_INPUT = 'bdays.csv'
 def id_lookup():
 
     response = requests.get(MEMBER_URL, params=PARAMS, headers=HEADERS).json()
-    print response
     members = response['response']['members']
     id_dict = {member['nickname']:member['user_id'] for member in members}
     return id_dict
