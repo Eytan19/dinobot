@@ -81,11 +81,10 @@ MEMBER_URL = 'https://api.groupme.com/v3/groups/33175999'
 PARAMS = {'token': 'RQmeVuHtocjtAcGmgTHYR1BL3g1lBCiGJgz55Act'}
 
 # Cluster D group Bot
-#BOT_ID = '0aafafce1aef34384b7bb45233'
-BOT_ID = '55d836eb2b95f01b990614ad1c'
+BOT_ID = '0aafafce1aef34384b7bb45233'
 
 # Test Bot
-# BOT_ID = '9ed43f52fe4c724c362063c5de'
+# BOT_ID = '55d836eb2b95f01b990614ad1c'
 
 HEADERS = {'content-type': 'application/json'}
 
